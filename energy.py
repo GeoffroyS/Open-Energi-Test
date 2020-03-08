@@ -83,9 +83,7 @@ def _compute_carbon_footprint(df, carbonIntensity):
 	return df
 
 def _create_connection():
-	"""Create a database connection to the SQLite database stored in memory
-	returns connection object or None
-	"""
+	"""Create a database connection to the SQLite database stored in memory, returns connection object or None"""
 	print(_create_connection.__doc__)
 	conn = None
 	try:
@@ -99,7 +97,6 @@ def _create_connection():
 def _plot_carbon_footprint(df):
 	"""Plot carbon footprint"""
 	print(_plot_carbon_footprint.__doc__)
-	#df['calculation'].plot()
 	plt.plot(df['HalfHourId'], df['calculation'])
 	plt.title('Carbon Footprint = f(HalfHourId)')
 	plt.show()
