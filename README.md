@@ -1,10 +1,10 @@
-#Open Energi Test
+# Open Energi Test
 
-##Getting started
+## Getting started
 1. Clone repo
 2. `pip install -r requirements.txt`
 
-##Output
+## Output
 Quick preview of the output of the script:
 ![Output of the script](https://i.imgur.com/F0PAPjo.png "Output of the script")
 
